@@ -6,10 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class AppComtroller {
+public class AppController {
 
 @GetMapping
 public String testApp() {
     return "Hello Spring Security";
+
+
 }
+
         }
